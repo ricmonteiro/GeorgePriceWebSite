@@ -1,0 +1,27 @@
+main {
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  #image {  
+   margin:auto;
+   display:block; 
+  }
+  
+  #page-title {
+    text-align: center;
+  }
+  
+  .navbar navbar-inverse navbar-fixed-top {
+    
+    position:absolute;
+  }
+  
+  #myNavbar {
+    
+    position:absolute;
+  
+  }
+  
+  #img-caption {
+    text-align: center;
+  }
