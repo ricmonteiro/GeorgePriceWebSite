@@ -2,7 +2,9 @@ main { /*properties for the main block*/
     font-family: "Times New Roman", Times, serif; /* type of font for the document*/
 }
 #page-title { /*properties for the page-title*/
-  text-align: center; /*centers the page title*/
+  text-align: justify; /*centers the page title*/
+  margin-left: 280px;
+  display:flex;
 }
 #image {  /*properties for the image*/
    margin:auto; /* let the browser calculate the margin for the center image*/
@@ -57,4 +59,11 @@ footer {
   padding: 10px;
   background-color: black;
   color: white;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  background-color: aliceblue;
+  width: 25%;
 }
