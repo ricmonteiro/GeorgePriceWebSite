@@ -41,11 +41,11 @@ background-color: #111;
 #history-list { /*properties for the page-title*/
 text-align: justify;
 list-style-type: none;
-margin-left: 450px;
+margin-left: 475px;
 padding: 0;
 overflow: hidden; 
 background-color: white;
-width: 50%;
+width: 40%;
 }
 footer {
 text-align: center;
