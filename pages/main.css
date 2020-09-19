@@ -13,7 +13,7 @@ main { /*properties for the main block*/
 }
 
   
-ul { /*properties for the page-title*/
+#navbar-items { /*properties for the page-title*/
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -36,7 +36,13 @@ li a {
 li a:hover {
   background-color: #111;
 }
-
+#history-list { /*properties for the page-title*/
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; 
+  background-color: white;
+}
 footer {
   text-align: center;
   position: fixed;
