@@ -17,7 +17,7 @@ main { /*properties for the main block*/
 #navbar {
     -webkit-flex: 1;
     -ms-flex: 1;
-     flex: 1;
+    flex: 1;
 }
   
 #navbar-items { /*properties for the page-title*/
@@ -51,6 +51,12 @@ li a:hover {
   overflow: hidden; 
   background-color: white;
 }
+
+#posts{
+
+  text-align:center;
+}
+
 footer {
   text-align: center;
   position: fixed;
