@@ -2,9 +2,12 @@ main { /*properties for the main block*/
   font-family: "Times New Roman", Times, serif; /* type of font for the document*/
 }
 
+body {
+  width:100%;
+}
+
 #page-title { /*properties for the page-title*/
 text-align: justify; /*centers the page title*/
-margin-left: 280px;
 display:flex;
 }
 
@@ -20,6 +23,8 @@ display:flex;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
+  width: 100%;
+  position:fixed;
 }
 
 #navbar-items { /*properties for the page-title*/
@@ -28,6 +33,7 @@ margin: 0;
 padding: 0;
 overflow: hidden;
 background-color: #333;
+width: 100%;
 }
 
 #navbar-li {
