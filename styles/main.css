@@ -24,7 +24,7 @@ display:flex;
   -ms-flex: 1;
   flex: 1;
   width: 100%;
-  position:fixed;
+  position: inherit;
 }
 
 #navbar-items { /*properties for the page-title*/
